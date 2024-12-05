@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Permintaan Penarikan Saldo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h2>HOMEPAGE</h2>
+            <ul>
+                <li>Dashboard</li>
+                <li>User</li>
+                <li>Jenis Sampah</li>
+                <li>Lokasi TPS</li>
+                <li>Transaksi Sampah</li>
+                <li>Donasi</li>
+                <li class="active">Request Penarikan</li>
+                <li>Transaksi Penarikan</li>
+                <li>Artikel</li>
+            </ul>
+            <button class="logout">Log Out</button>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <h1>Permintaan Penarikan Saldo</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Cari berdasarkan Nama Pelanggan">
+                <button>SEARCH</button>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nama Pelanggan</th>
+                        <th>Bank</th>
+                        <th>No. Rekening</th>
+                        <th>Jumlah Penarikan</th>
+                        <th>Status</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sano</td>
+                        <td>BCA</td>
+                        <td>12345678910</td>
+                        <td>Rp 50.000</td>
+                        <td>Selesai</td>
+                        <td>
+                            <button class="edit-btn">Edit</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Agus</td>
+                        <td>Mandiri</td>
+                        <td>09876579</td>
+                        <td>Rp 30.000</td>
+                        <td>Dalam proses</td>
+                        <td>
+                            <button class="edit-btn">Edit</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="pagination">
+                <button>&lt;&lt;</button>
+                <button>1</button>
+                <button>2</button>
+                <button>&gt;&gt;</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
